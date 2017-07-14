@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -29,5 +29,6 @@ dependencies {
     compile 'com.esri.arcgisruntime:arcgis-android:100.1.0'
     compile 'com.zhy:okhttputils:2.6.2'
     compile 'com.google.code.gson:gson:2.7'
+    compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
 }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_slt"
+            android:icon="@mipmap/nav_slt"
+            android:title="矢量图" />
+        <item
+            android:id="@+id/nav_dzdt"
+            android:icon="@mipmap/nav_dzdt"
+            android:title="电子地图" />
+        <item
+            android:id="@+id/nav_yxt"
+            android:icon="@mipmap/nav_yxt"
+            android:title="影像图" />
+        <item
+            android:id="@+id/nav_qxsy"
+            android:icon="@mipmap/nav_qxsy"
+            android:title="倾斜摄影" />
+        <item
+            android:id="@+id/nav_dzx"
+            android:icon="@mipmap/nav_yldzx"
+            android:title="雨量等值线" />
+        <item
+            android:id="@+id/nav_ssyl"
+            android:icon="@mipmap/nav_ssyl"
+            android:title="实时雨量" />
+    </group>
+
+
+</menu>

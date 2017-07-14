@@ -1,9 +1,17 @@
 <resources>
-    <string name="app_name">WSDisastion</string>
+    <string name="app_name">万盛Demo</string>
     <string name="world_elevation_service">http://183.230.182.149:6080/arcgis/rest/services/wansheng/MapServer</string>
     <string name="get_disaster_point">http://www.cqdzjc.com:8090/meteor/findWanShengData.do</string>
     <string name="get_disaster_info">http://www.cqdzjc.com:8090/meteor/findWanShengByIdData.do</string>
     <string name="elevation_url">http://183.230.182.149:6080/arcgis/rest/services/cq_dem/ImageServer</string>
     <string name="qinnxiesheying_url">http://183.230.182.149:6081/arcgis/rest/services/Hosted/waimian/SceneServer/layers/0</string>
     <string name="shiliangtu_url">http://183.230.182.149:6080/arcgis/rest/services/wansheng_xz/MapServer</string>
+    <string name="dianziditu_url">http://183.230.182.149:6080/arcgis/rest/services/wanshengmap/MapServer</string>
+    <string name="yuliang_url">http://183.230.182.149:6080/arcgis/rest/services/wansheng_dzx/MapServer</string>
+    <string name="ssyl_url">http://183.230.182.149:6080/arcgis/rest/services/wansheng_yl2/MapServer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
 </resources>
